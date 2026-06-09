@@ -24,7 +24,7 @@ spec:
         runAsNonRoot: false
       containers:
       - name: test-app
-        image: nginx:broken-404
+        image: nginx:alpine
         imagePullPolicy: Always
         ports:
         - containerPort: 80
